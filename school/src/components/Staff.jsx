@@ -37,3 +37,25 @@ const Staff = () => {
 };
 
 export default Staff;
+
+// import React from 'react';
+// // import React, { useState, useEffect} from 'react';
+// export default function Staff() {
+//   const[staff, setStaff] = React.useState([]);
+
+//   const fetchData =() =>{
+//     fetch('https://school-api-2wqk.onrender.com/api/clubs/')
+//     .then(response => response.json())
+//     .then(data => setStaff(data));
+//   }
+//   React.useEffect(()=>{
+//     fetchData();
+//   },[]);
+//   return Object.keys(staff).length > 0 ?(
+//     <div>
+//       <h1>{staff.results[0].club_name}</h1>
+//     </div>
+//   ):(
+//     <h2>waiting</h2>
+//   );
+// }
